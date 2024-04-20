@@ -1,0 +1,37 @@
+diff --git a/Documentation/driver-api/index.rst b/Documentation/driver-api/index.rst
+index 38e638abe3eb..6d46ceeb62c4 100644
+--- a/Documentation/driver-api/index.rst
++++ b/Documentation/driver-api/index.rst
+@@ -93,7 +93,6 @@ available subsections can be seen below.
+    pwm
+    rfkill
+    serial/index
+-   sgi-ioc4
+    sm501
+    smsc_ece1099
+    switchtec
+diff --git a/Documentation/misc-devices/index.rst b/Documentation/misc-devices/index.rst
+index f11c5daeada5..a57f92dfe49a 100644
+--- a/Documentation/misc-devices/index.rst
++++ b/Documentation/misc-devices/index.rst
+@@ -20,4 +20,3 @@ fit into other categories.
+    isl29003
+    lis3lv02d
+    max6875
+-   xilinx_sdfec
+diff --git a/Documentation/usb/index.rst b/Documentation/usb/index.rst
+index e55386a4abfb..36b6ebd9a9d9 100644
+--- a/Documentation/usb/index.rst
++++ b/Documentation/usb/index.rst
+@@ -22,11 +22,9 @@ USB support
+     misc_usbsevseg
+     mtouchusb
+     ohci
+-    rio
+     usbip_protocol
+     usbmon
+     usb-serial
+-    wusb-design-overview
+
+     usb-help
+     text_files
