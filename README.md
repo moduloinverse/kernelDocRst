@@ -10,11 +10,11 @@ only <.. toctree> directive is reproduced
 Kernel version used is 5.4, just like in first edition of the book
 
 Here is how to setup:
-clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux
-remote add stable https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
-fetch stable
-git checkout -b <branchName> stable/linux-5.4.y
+- clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux
+- remote add stable https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
+- fetch stable
+- git checkout -b <branchName> stable/linux-5.4.y
 
-apply patch
-run genrate rb
+- apply patch
+- run genrate rb
 
