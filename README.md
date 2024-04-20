@@ -6,6 +6,9 @@ Of course there are htmldocs avail. online e.g https://kernel.org/doc/html/
 one can even pick a version of interest, but there are any pdf's.
 So i started playing around with capturing the documentation structure in the index.rst files.
 
+global capture: match() vs. scan() 
+match offers me enough consistency on pre_match & post_match(only relevant for last MatchObject)
+
 only <.. toctree> directive is reproduced
 Kernel version used is 5.4, just like in first edition of the book
 
